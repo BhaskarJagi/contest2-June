@@ -1,0 +1,83 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    border:0;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+main{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 5px 0;
+}
+
+input::placeholder{
+    color: white;
+}
+
+main>div.profile{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main.profile{
+    padding: 30px;
+}
+main.profile span{
+    font-size:25px;
+}
+
+header>div>button{
+    background-color: black;
+}
+main>div>button{
+    color:black;
+    padding: 5px 30px;
+}
+
+div.btns {
+    display: flex;
+    gap: 10px;
+}
+
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}
+
+form button{
+    width: 125px;
+    color:black;
+    padding: 5px;
+}
